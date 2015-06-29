@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <com.zczczy.leo.fuwuwangapp.viewgroup.MyTitleView_
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:background="@drawable/search_bg_selector"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/edt_search"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/common_search_selector"
+            android:drawableLeft="@mipmap/search_bar"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/txt_search"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:padding="3dp" />
+    </LinearLayout>
+
+    <com.zczczy.leo.fuwuwangapp.viewgroup.NoDataView_
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_search"
+        android:visibility="gone" />
+
+    <com.zczczy.leo.fuwuwangapp.pullableview.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/no_data"
+        android:background="@color/background_color">
+
+        <include layout="@layout/refresh_head" />
+        <!-- 支持所有实现Pullable接口的View -->
+
+        <com.zczczy.leo.fuwuwangapp.pullableview.PullableListView
+            android:id="@+id/lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null">
+
+        </com.zczczy.leo.fuwuwangapp.pullableview.PullableListView>
+
+        <include layout="@layout/load_more" />
+
+    </com.zczczy.leo.fuwuwangapp.pullableview.PullToRefreshLayout>
+
+</RelativeLayout>

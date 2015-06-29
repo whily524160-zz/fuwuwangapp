@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <com.zczczy.leo.fuwuwangapp.viewgroup.MyTitleView_
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.zczczy.leo.fuwuwangapp.viewgroup.NoDataView_
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:visibility="gone"/>
+
+    <com.zczczy.leo.fuwuwangapp.pullableview.PullToRefreshLayout
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/no_data"
+        android:background="@color/background_color">
+
+        <include layout="@layout/refresh_head"/>
+        <!-- 支持所有实现Pullable接口的View -->
+
+        <com.zczczy.leo.fuwuwangapp.pullableview.PullableListView
+            android:id="@+id/lv_list"
+            android:layout_width="match_parent"
+            android:divider="@null"
+            android:layout_height="match_parent">
+
+        </com.zczczy.leo.fuwuwangapp.pullableview.PullableListView>
+
+        <include layout="@layout/load_more"/>
+
+    </com.zczczy.leo.fuwuwangapp.pullableview.PullToRefreshLayout>
+
+</RelativeLayout>

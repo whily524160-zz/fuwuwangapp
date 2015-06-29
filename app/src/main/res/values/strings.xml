@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">服务网</string>
+    <string name="unuse">没用</string>
+    <string name="no_net">网络连接失败</string>
+
+    <!-- main -->
+    <string name="txt_home">首页</string>
+    <string name="txt_me">我的</string>
+
+
+    <!--home -->
+    <string name="txt_notice">公告</string>
+    <string name="txt_topic">资讯</string>
+    <string name="txt_fund">麻团基金</string>
+    <string name="txt_cooperation_merchant">联盟商家</string>
+    <string name="txt_experience_center">体验中心</string>
+    <string name="txt_agent">加盟代理</string>
+    <string name="txt_activity">活动</string>
+    <string name="txt_business_institute">商学院</string>
+    <string name="txt_service">增值服务</string>
+
+
+    <!-- me  -->
+    <string name="txt_wealth">财富</string>
+    <string name="txt_register">注册</string>
+    <string name="txt_perfect_info">资料完善</string>
+    <string name="txt_queue">兑现券排队</string>
+    <string name="txt_manager">兑现券管理</string>
+    <string name="txt_suggest">推荐</string>
+    <string name="txt_scan">扫一扫</string>
+    <string name="txt_game_club">游戏中心</string>
+    <string name="txt_address">我的位置</string>
+    <string name="txt_username">用户名：</string>
+    <string name="txt_realname"> 真是姓名：</string>
+
+
+    <!-- suggest -->
+    <string name="txt_suggest_username">用户名：</string>
+    <string name="txt_suggest_pass">用户密码：</string>
+    <string name="txt_confirm_pass">确认密码：</string>
+    <string name="txt_id_card">身份证号：</string>
+    <string name="txt_region">国家/地区：</string>
+    <string name="txt_is_show">显示密码</string>
+
+
+    <!-- wealth  -->
+    <string name="txt_w_wealth">财富</string>
+    <string name="txt_e_purse">电子钱包余额:￥</string>
+    <string name="txt_transfer">转账</string>
+    <string name="txt_withdraw">提现</string>
+    <string name="txt_bill">账单</string>
+    <string name="txt_status">状态</string>
+    <string name="txt_dou">麻豆</string>
+    <string name="txt_bi">龙币</string>
+    <string name="txt_total_dou">总麻豆</string>
+    <string name="txt_ticket">车票</string>
+    <string name="txt_stamp">邮票</string>
+
+    <!-- transfer  -->
+    <string name="txt_transfer_title">转账给朋友</string>
+    <string name="txt_money">金额：</string>
+    <string name="txt_receiver">接收人用户名:</string>
+    <string name="txt_real_name">真实姓名：</string>
+    <string name="txt_tip">小提示：系统会根据您输入的接收会员昵称弹出该用户的真实姓名，请认真核对后再确认，款项一经转出不可撤销。</string>
+
+    <!-- withdraw  -->
+    <string name="txt_withdraw_title">电子钱包提现申请</string>
+    <string name="txt_withdraw_money">提现金额：</string>
+    <string name="txt_common">提现说明:</string>
+    <string name="txt_btn_withdraw">提现申请</string>
+    <string name="txt_withdraw_tip">小提示：提现金额不得小于100元。</string>
+
+
+    <!-- transaction_record  -->
+    <string name="txt_transaction_record_title">电子钱包交易记录</string>
+    <string name="txt_transaction_name">交易名称：</string>
+    <string name="txt_transaction_money">金额：￥</string>
+    <string name="txt_transaction_date">交易时间：</string>
+    <string name="txt_transaction_common">说明：</string>
+
+    <!-- cooperation_merchant  -->
+    <string name="txt_cooperation_merchant_title">联盟商家</string>
+    <string name="txt_search">搜索</string>
+    <string name="txt_major">主营：</string>
+    <string name="txt_company_address">地址：</string>
+
+    <!-- perfect_info  -->
+    <string name="txt_perfect_info_title">资料完善</string>
+    <string name="txt_finance_info">财务信息</string>
+    <string name="txt_user_info">个人信息</string>
+    <string name="txt_mobile_phone">电话号码：</string>
+    <string name="txt_post_code">邮政编码：</string>
+    <string name="txt_delivery">邮寄地址：</string>
+    <string name="txt_name">收款人姓名：</string>
+    <string name="txt_bank_card">银行卡号：</string>
+    <string name="txt_bank">开户银行：</string>
+    <string name="txt_bank_area">开户行地区：</string>
+    <string name="txt_save">保存</string>
+
+
+    <!-- coupon_queue  -->
+    <string name="txt_coupon_queue_title">兑现券排队</string>
+    <string name="txt_electron_coupon">电子券</string>
+    <string name="txt_paper_coupon">纸券</string>
+    <string name="txt_btn_transfer">转让</string>
+    <string name="txt_btn_queue">排队</string>
+    <string name="txt_coupon_code">兑现券编号：</string>
+    <string name="txt_coupon_pass">兑现券密码：</string>
+    <string name="txt_coupon_scan">扫一扫</string>
+    <string name="txt_coupon_tip">小提示：如果兑现券的密码不足6位，请在前面加0补齐。</string>
+
+
+    <!-- electron_coupon_queue  -->
+    <string name="txt_electron_coupon_queue_title">电子券排队</string>
+    <string name="txt_fifty_queue">50进1队列</string>
+    <string name="txt_twenty_five_queue">25进1队列</string>
+    <string name="txt_member_queue">开启会员队列</string>
+    <string name="txt_business_queue">开启商家队列</string>
+    <string name="txt_user_name">商家用户名：</string>
+    <string name="txt_business">商家名称：</string>
+    <string name="txt_queue_num">输入排队数量：</string>
+    <string name="txt_start">进入排队</string>
+
+
+
+
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+
+</resources>
